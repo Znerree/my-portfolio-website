@@ -36,7 +36,7 @@ export default function Home() {
 
         <div className=" text-gray-600 text-2xl">
           <TypeAnimation
-            sequence={["Software Engineer", 1000, "Software Developer", 1000, "Web Developer", 1000, "IT Fresh Graduate", 1000]}
+            sequence={["Software Engineer", 1000, "Software Developer", 1000, "Web Developer", 1000]}
             wrapper="span"
             speed={50}
             repeat={Infinity}
