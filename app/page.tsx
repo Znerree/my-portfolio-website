@@ -28,7 +28,7 @@ export default function Home() {
       {/* intro */}
       <div className=" flex flex-col md:text-center cursor-pointer">
         <p className=" text-lg font-thin">
-          <span className=" text-blue-500">Hello,</span> I'm
+          <span className=" text-blue-500">Hello,</span> I&apos;m
         </p>
         <a className=" text-5xl" href="/">
           Jake Errenz Batulan.
