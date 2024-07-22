@@ -23,6 +23,11 @@ export default function Home() {
     }
   };
 
+  useEffect(() => {
+    const audio = new Audio("https://drive.google.com/drive/u/0/folders/1eaYF9IzY7YDL-hs3iS4sqwaisA9vz7aD");
+    audio.play();
+  }, []);
+
   return (
     <main className="flex min-h-screen flex-col md:items-center justify-center p-24">
       {/* intro */}
