@@ -2,6 +2,7 @@
 
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
+import React, { useEffect } from 'react';
 
 export default function Home() {
   // function to download the resume
